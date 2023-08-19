@@ -418,7 +418,7 @@ int main(int argc, char** argv) {
 
         // Delay to limit the frame rate
         SDL_Delay(1000 / 60);
-        writeBMP("zbuffer.bmp");
+        writeBMP("zbuffer2.bmp");
     }
 
     SDL_DestroyRenderer(renderer);
